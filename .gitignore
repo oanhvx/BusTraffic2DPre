@@ -105,5 +105,17 @@ InitTestScene*.unity*
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
 
-*.md
+# VS Code & IDE local settings
 .vscode/
+.idea/
+
+# AI Agents & MCP local secrets (Giữ lại GEMINI.md, CLAUDE.md, PROGRESS.md)
+mcp_config.json
+.env
+.env.local
+.claude/settings.local.json
+.gemini/settings.local.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
